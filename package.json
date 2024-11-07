@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-quadruped-robot",
+  "version": "1.0.0",
+  "description": "Quadruped Robot Control System in Node.js",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "three": "^0.158.0",
+    "ws": "^8.14.2"
+  }
+}
